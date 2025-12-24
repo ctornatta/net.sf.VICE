@@ -195,8 +195,8 @@ modules:
       - /share/man
     sources:
       - type: archive
-        url: https://downloads.sourceforge.net/project/vice-emu/releases/vice-3.9.tar.gz
-        sha256: 40202b63455e26b87ecc63eb5a52322c6fa3f57cab12acf0c227cf9f4daec370
+        url: https://downloads.sourceforge.net/project/vice-emu/releases/vice-3.10.tar.gz
+        sha256: 8e5bac18cbcb9f192380ad3ef881f8790f5b75c41d7b3da65d831985d864d6d1
 
   - name: appdata
     buildsystem: simple
