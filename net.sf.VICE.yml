@@ -115,14 +115,14 @@ modules:
         sources:
           - type: git
             url: https://gitlab.freedesktop.org/xorg/lib/libXfont
-            tag: libXfont-1.5.4
+            tag: libXfont2-2.0.7
 
       - name: bdftopcf
         cleanup: [ '*' ]
         sources:
           - type: git
             url: https://gitlab.freedesktop.org/xorg/util/bdftopcf
-            tag: bdftopcf-1.1.1
+            tag: bdftopcf-1.1.2
 
       - name: mkfontdir
         cleanup: [ '*' ]
@@ -155,8 +155,8 @@ modules:
       - '*'
     sources:
       - type: archive
-        url: https://downloads.sourceforge.net/project/dos2unix/dos2unix/7.4.2/dos2unix-7.4.2.tar.gz
-        sha256: 6035c58df6ea2832e868b599dfa0d60ad41ca3ecc8aa27822c4b7a9789d3ae01
+        url: https://downloads.sourceforge.net/project/dos2unix/dos2unix/7.5.3/dos2unix-7.5.3.tar.gz
+        sha256: 28a4b0d9f9179da4e44c567b9c01f818b070a20827115fffd96f760dcfa0f3b2
 
   - name: check
     buildsystem: autotools
@@ -178,8 +178,8 @@ modules:
       - '*.la'
     sources:
       - type: archive
-        url: https://www.freedesktop.org/software/libevdev/libevdev-1.13.3.tar.xz
-        sha256: abf1aace86208eebdd5d3550ffded4c8d73bb405b796d51c389c9d0604cbcfbf
+        url: https://www.freedesktop.org/software/libevdev/libevdev-1.13.6.tar.xz
+        sha256: 73f215eccbd8233f414737ac06bca2687e67c44b97d2d7576091aa9718551110
 
   - name: vice
     config-opts:
